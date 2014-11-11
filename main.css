@@ -1,0 +1,35 @@
+.wrapper{
+            max-width:60em;
+            position:relative;
+            margin:20px auto;
+        }
+        .row{
+            display:flex;
+            
+            min-height:2.5em;
+            
+        }
+        .meta {
+            background:blue;
+        }
+        .logo{
+            background:navy;
+        }
+        .nav{
+            background:#ddd;
+        }
+        .nav > .lynx {
+            border: 2px solid #333;
+            padding:.25em;
+            flex-grow:1;
+            
+        }
+        
+        .hero{
+            height: 325px;
+            background:maroon;
+        }
+        .feature .feature-pic{
+            width:100%;
+                
+        }
